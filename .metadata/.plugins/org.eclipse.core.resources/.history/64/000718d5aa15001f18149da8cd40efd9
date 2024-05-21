@@ -1,0 +1,40 @@
+package chap17.sec07.exam02;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
+import chap17.sec03.Student;
+
+public class SortingExample {
+
+	public static void main(String[] args) {
+		
+		//List 컬랙션 생성
+		List<Student> studentList = new ArrayList();
+		studentList.add(new Student("홍길동", 70));
+		studentList.add(new Student("나건웅", 70));
+		studentList.add(new Student("서가을", 70));
+		studentList.add(new Student("동동진", 70));
+		studentList.add(new Student("김태립", 70));
+		
+		
+		
+		//점수를 기준으로 오름차순으로 정렬한 새 스트림 얻기
+				studentList.stream()
+					.sorted()
+					.forEach(s -> System.out.println(s.getName() + " : " + s.getScore()));
+				
+				System.out.println();
+				
+				//점수를 기준으로 내림차순으로 정렬한 새스트림 얻기
+				studentList.stream()
+				.sorted(Comparator.reverseOrder())
+				.forEach(s -> System.out.println(s.getName() + " : " + s.getScore()));
+				
+				
+				
+		
+	}
+
+}

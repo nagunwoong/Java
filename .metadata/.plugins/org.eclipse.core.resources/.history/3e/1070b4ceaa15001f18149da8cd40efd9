@@ -1,0 +1,19 @@
+package chap18.sec07examl02;
+
+import java.io.BufferedReader;
+
+public class ReadLineExample {
+
+	public static void main(String[] args) {
+		
+		BufferedReader br = new BufferedReader ()
+				
+		
+	}	
+		
+	int linello = 1;
+	while(true) {
+		
+	
+	}
+};

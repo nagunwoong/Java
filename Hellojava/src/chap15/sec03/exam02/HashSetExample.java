@@ -1,0 +1,21 @@
+package chap15.sec03.exam02;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HashSetExample {
+
+	public static void main(String[] args) {
+		
+		Set<Member> set = new HashSet<>();
+		
+		set.add(new Member("홍길동", 30));
+		set.add(new Member("나건웅", 30));
+		set.add(new Member("홍길동", 30));
+		
+		//지정된 객체 수 출력
+		System.out.println("총 객체수 : " + set.size());
+		
+	}
+
+}

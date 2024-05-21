@@ -1,0 +1,10 @@
+package chap17.sec12examl01;
+
+public class CollectExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

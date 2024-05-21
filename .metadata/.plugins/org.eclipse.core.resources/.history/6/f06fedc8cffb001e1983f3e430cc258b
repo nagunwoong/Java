@@ -1,0 +1,9 @@
+package chap06.sec12.hyundai;
+
+import chap06.sec12.hankook.Snowtire;
+
+
+
+public class Car {
+
+}
