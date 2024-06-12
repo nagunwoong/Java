@@ -11,7 +11,7 @@ public class ReturnDemo4 {
 	
 	public static void main(String[] args) {
 		String[]member = getMembers();
-		System.out.println(member);
+
 	}
 
 }
